@@ -18,3 +18,6 @@ clean:
 
 net:
 	docker network ls
+
+vol:
+	docker volume ls
