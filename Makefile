@@ -15,3 +15,6 @@ ps:
 
 clean:
 	docker system prune
+
+net:
+	docker network ls
