@@ -1,8 +1,9 @@
-version: '3.7'
+version: '3.3'
 services:
   mariadb:  
     build: ./db/
     container_name: mariadb
+    restart: always
     networks:
       - inception
     volumes:
